@@ -59,7 +59,7 @@ function Banner() {
   function show() {
     setShowBalance((f) => !f);
   }
-  const [balance, setBalance] = 100
+  const [balance, setBalance] = 100;
   function addMoney(){
     setBalance((prevBal) => prevBal + 100)
   }
